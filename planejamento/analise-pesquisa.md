@@ -1,0 +1,6 @@
+Objetivo do formulário
+Número de respostas
+Gráficos (print ou exportados)
+Principais resultados
+Interpretação dos dados
+Limitações (os 5%)
