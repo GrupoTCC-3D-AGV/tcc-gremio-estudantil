@@ -1,1 +1,411 @@
+CENTRO ESTADUAL DE EDUCAÇÃO TECNOLÓGICA PAULA SOUZA
+ETEC VASCO ANTÔNIO VENCHIARUTTI
+CURSO TÉCNICO EM INFORMÁTICA PARA INTERNET
+Allan Pierre Marinho Xavier
+Gabriel Rocha Nogueira
+Victor Hugo Gass Pasqualetto
+SITE PARA CENTRALIZAÇÃO DE INFORMAÇÕES DO GRÊMIO ESTUDANTIL
+DA ETEC VASCO ANTÔNIO VENCHIARUTTI
+JUNDIAÍ – SP
+2026
+1
+RESUMO
+Este artigo apresenta a proposta de desenvolvimento de uma plataforma web responsiva
+destinada à centralização das informações do Grêmio Estudantil da Etec Vasco Antônio
+Venchiarutti. O projeto parte da identificação de dificuldades relacionadas à comunicação
+entre a agremiação e os estudantes, especialmente no acesso, na organização e na localização
+de avisos, atividades e demais informações. Para fundamentar a proposta, foram abordados
+conceitos de sistemas web, engenharia de software, levantamento de requisitos, comunicação
+digital, organização da informação, usabilidade e participação estudantil. Quanto aos
+procedimentos metodológicos, o trabalho caracteriza-se como pesquisa aplicada, de caráter
+exploratório e descritivo, combinando levantamento bibliográfico e pesquisa de campo
+quantitativa por meio de questionário eletrônico aplicado aos estudantes da instituição. O
+instrumento de coleta foi utilizado para identificar necessidades reais dos usuários e
+estabelecer uma relação entre os problemas observados e os requisitos da solução proposta. O
+projeto busca, portanto, aplicar conhecimentos de desenvolvimento web e engenharia de
+software à construção de uma ferramenta voltada à melhoria da comunicação, à organização
+das informações e ao fortalecimento da participação dos estudantes no Grêmio Estudantil. Palavras-chave: Tecnologia da Informação. Engenharia de Software. Sistemas Web. Comunicação Escolar. Grêmio Estudantil. 1 INTRODUÇÃO
+A comunicação constitui um elemento fundamental para o funcionamento das organizações e
+para a participação dos indivíduos em atividades coletivas. No ambiente escolar, a circulação
+adequada de informações é especialmente relevante, pois permite que os estudantes
+acompanhem atividades, decisões, eventos e iniciativas relacionadas à comunidade acadêmica. Com a ampliação do uso de tecnologias digitais, diferentes plataformas passaram a integrar
+esse processo de comunicação, possibilitando maior rapidez na divulgação de conteúdos. Entretanto, a utilização simultânea de diferentes canais pode resultar na fragmentação das
+informações. Quando avisos, eventos e comunicados são distribuídos em ambientes distintos, o usuário pode encontrar dificuldades para localizar determinado conteúdo ou acompanhar de
+forma contínua as ações de uma organização. Esse cenário é particularmente relevante para
+entidades estudantis, cuja atuação depende da comunicação com o corpo discente. Na Etec Vasco Antônio Venchiarutti, o Grêmio Estudantil exerce função de representação dos
+estudantes e participa da organização de atividades escolares, culturais e sociais. Nesse
+contexto, a existência de uma ferramenta capaz de reunir informações relevantes em um único
+ambiente pode contribuir para tornar a comunicação mais organizada, acessível e transparente. Diante dessa problemática, este trabalho propõe o desenvolvimento de uma plataforma web
+responsiva destinada à centralização das informações do Grêmio Estudantil da Etec Vasco
+Antônio Venchiarutti. A proposta considera tanto o acesso dos estudantes aos conteúdos
+quanto o gerenciamento das informações pelos responsáveis pela comunicação da agremiação.
+2
+1.1 Problema de pesquisa
+De que maneira o desenvolvimento de uma plataforma web centralizada pode contribuir para
+facilitar o acesso dos estudantes às informações do Grêmio Estudantil da Etec Vasco Antônio
+Venchiarutti e, consequentemente, favorecer a comunicação e a participação discente?
+1.2 Justificativa
+A escolha do tema fundamenta-se na necessidade de aprimorar a comunicação entre o Grêmio
+Estudantil e os alunos da instituição. A utilização de diferentes canais para divulgação de
+conteúdos pode dificultar a localização das informações e reduzir a percepção dos estudantes
+sobre as atividades desenvolvidas pela agremiação. Nesse sentido, uma plataforma específica
+pode funcionar como ponto central de acesso aos conteúdos produzidos pelo Grêmio. Além da relevância institucional, o projeto possui importância acadêmica e técnica por
+possibilitar a aplicação de conhecimentos adquiridos no curso Técnico em Informática para
+Internet, incluindo desenvolvimento web, engenharia de software, levantamento de requisitos, organização de dados e princípios de usabilidade. 1.3 Objetivo geral
+Desenvolver uma plataforma web responsiva destinada à centralização das informações do
+Grêmio Estudantil da Etec Vasco Antônio Venchiarutti, buscando facilitar o acesso aos
+conteúdos divulgados e aprimorar a comunicação entre a agremiação e os estudantes. 1.4 Objetivos específicos
+Constituem objetivos específicos deste trabalho:
+a) identificar as principais dificuldades relacionadas ao acesso às informações do
+Grêmio Estudantil;
+b) levantar os requisitos necessários para a definição da plataforma a partir das
+necessidades dos usuários;
+c) desenvolver uma interface web responsiva, organizada e de fácil utilização;
+d) centralizar avisos, comunicados, eventos e demais informações relevantes em um
+único ambiente;
+e) prever mecanismos que favoreçam a participação dos estudantes e a transparência
+da atuação do Grêmio;
+f) disponibilizar uma estrutura administrativa para gerenciamento das informações
+divulgadas.
+3
+2 FUNDAMENTAÇÃO TEÓRICA
+2.1 Sistemas web
+Sistemas web são aplicações disponibilizadas por meio da internet e acessadas, em geral, através de navegadores. Essa característica permite que o usuário utilize a aplicação a partir
+de diferentes dispositivos, sem depender necessariamente da instalação de um programa
+específico em cada equipamento. Segundo Sommerville (2019), aplicações baseadas na web possibilitam o acesso a serviços e
+informações por diferentes usuários e plataformas. Essa característica é particularmente
+adequada a sistemas que precisam disponibilizar conteúdos de maneira contínua e acessível. No contexto deste projeto, a utilização de uma aplicação web possibilita que estudantes
+consultem as informações do Grêmio por computadores e dispositivos móveis, favorecendo a
+disponibilidade dos conteúdos em diferentes contextos de acesso. 2.2 Engenharia de software
+A engenharia de software compreende métodos, processos e práticas utilizados para a
+construção sistemática de sistemas computacionais. Seu objetivo envolve não apenas a
+implementação do software, mas também a definição de requisitos, o planejamento, a
+verificação e a manutenção da solução. Pressman (2016) destaca que a engenharia de software reúne práticas destinadas ao
+desenvolvimento de sistemas que atendam às necessidades identificadas. Sommerville (2019)
+também ressalta a importância dos requisitos, que orientam o desenvolvimento e estabelecem
+as características que a solução deve apresentar. Para este projeto, esses conceitos são relevantes porque a plataforma é concebida a partir de
+uma necessidade concreta da comunidade escolar, sendo o levantamento das necessidades dos
+usuários uma etapa fundamental para a definição da solução. 2.3 Comunicação no ambiente digital escolar
+A comunicação escolar passou a utilizar diferentes recursos digitais para a divulgação de
+informações e para a interação entre os membros da comunidade acadêmica. Esses recursos
+podem ampliar o alcance das informações, mas também podem gerar dispersão quando os
+conteúdos são distribuídos entre diferentes ambientes. Segundo a UNESCO (2023), as tecnologias digitais apresentam potencial para ampliar o
+acesso à informação e apoiar processos educacionais e de participação. Entretanto, a
+utilização dessas tecnologias deve considerar as condições de acesso, a organização das
+informações e as necessidades dos usuários. Nesse sentido, uma plataforma específica para o Grêmio Estudantil pode atuar como um
+ambiente de referência para a consulta das informações, reduzindo a necessidade de localizar
+conteúdos em diferentes canais. 2.4 Organização e centralização das informações
+A organização da informação é fundamental para que os usuários consigam localizar e
+compreender os conteúdos disponibilizados por um sistema. Em aplicações destinadas à
+4
+comunicação, a estruturação adequada das informações pode reduzir dificuldades de
+navegação e facilitar o acesso aos conteúdos relevantes. Pressman (2016) destaca a importância de uma organização adequada dos sistemas para
+facilitar sua utilização e manutenção. No contexto de uma organização estudantil, a
+centralização de comunicados, atividades, eventos e informações institucionais pode
+contribuir para uma consulta mais simples e sistemática. 2.5 Levantamento de requisitos
+O levantamento de requisitos consiste na identificação das necessidades, expectativas e
+restrições relacionadas a um sistema. Essa etapa é fundamental para que as funcionalidades
+desenvolvidas estejam relacionadas às necessidades dos usuários. Sommerville (2019) aponta que os requisitos representam aquilo que os usuários e demais
+envolvidos esperam que o sistema realize. Questionários, entrevistas, observações e outras
+técnicas podem ser utilizados para a obtenção dessas informações. Neste trabalho, o questionário eletrônico foi utilizado como instrumento de levantamento das
+necessidades dos estudantes, permitindo relacionar as dificuldades identificadas às
+funcionalidades a serem consideradas na plataforma. 2.6 Usabilidade e responsividade em sistemas web
+A usabilidade está relacionada à facilidade com que um usuário consegue compreender e
+utilizar um sistema para alcançar determinado objetivo. Sistemas com interfaces pouco
+intuitivas podem dificultar a execução de tarefas e comprometer a experiência do usuário. Nielsen (2007) destaca a importância de desenvolver interfaces que sejam fáceis de aprender, eficientes e adequadas às necessidades dos usuários. Dessa forma, aspectos como clareza da
+informação, organização visual e facilidade de navegação devem ser considerados desde o
+planejamento da solução. A responsividade, por sua vez, está relacionada à capacidade de uma interface adaptar sua
+apresentação a diferentes dimensões de tela. Para uma plataforma voltada ao público
+estudantil, essa característica é relevante devido ao uso de diferentes dispositivos, especialmente computadores e smartphones. 2.7 Grêmio estudantil e participação discente
+O Grêmio Estudantil constitui uma entidade representativa dos estudantes, podendo atuar na
+defesa de seus interesses e na organização de atividades culturais, esportivas, sociais e
+educacionais. No Brasil, a organização de entidades representativas dos estudantes é contemplada pela Lei
+nº 7.398, de 4 de novembro de 1985. A legislação dispõe sobre a organização dessas
+entidades e reconhece sua função de representação dos interesses dos estudantes. A participação estudantil também se relaciona aos princípios de gestão democrática da
+educação previstos na Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as Diretrizes e
+Bases da Educação Nacional. Nesse contexto, mecanismos de comunicação e participação
+podem contribuir para aproximar os estudantes das atividades e decisões de suas entidades
+representativas.
+5
+3 METODOLOGIA
+3.1 Caracterização da pesquisa
+O presente trabalho caracteriza-se como uma pesquisa aplicada, de caráter exploratório e
+descritivo. É aplicada por buscar utilizar conhecimentos técnicos e científicos na proposição
+de uma solução para uma necessidade concreta identificada no ambiente escolar. Possui
+caráter exploratório por investigar um problema relacionado à comunicação e ao acesso às
+informações do Grêmio Estudantil, e descritivo por buscar caracterizar as necessidades e
+percepções dos estudantes participantes da pesquisa. 3.2 Levantamento bibliográfico
+A primeira etapa da pesquisa consistiu no levantamento bibliográfico de conteúdos
+relacionados aos fundamentos necessários para o desenvolvimento da proposta. Foram
+abordados temas como sistemas web, engenharia de software, levantamento de requisitos, comunicação digital, organização da informação, usabilidade, participação estudantil e
+grêmios estudantis. Entre as referências utilizadas encontram-se Sommerville (2019), Pressman (2016), Nielsen
+(2007), UNESCO (2023) e a legislação brasileira relacionada à representação estudantil. 3.3 Pesquisa de campo
+Na segunda etapa, foi realizada uma pesquisa de campo quantitativa por meio de questionário
+eletrônico elaborado no Google Forms e disponibilizado aos estudantes matriculados na Etec
+Vasco Antônio Venchiarutti. O instrumento foi elaborado com a finalidade de embasar o projeto, identificando problemas
+reais relacionados à comunicação do Grêmio Estudantil e permitindo relacionar essas
+necessidades às soluções propostas para a plataforma. 3.4 Participantes e instrumento de coleta
+Foram obtidas 62 respostas satisfatórias, correspondendo a aproximadamente 5% dos alunos
+da instituição. Os participantes pertenciam aos três anos do Ensino Médio integrado ao curso
+técnico, permitindo contemplar diferentes períodos de permanência dos estudantes na escola. O questionário foi composto por perguntas relacionadas ao conhecimento dos estudantes
+sobre o Grêmio, aos canais utilizados para acompanhar informações, às dificuldades de acesso, à percepção sobre a comunicação e às funcionalidades consideradas relevantes para uma
+eventual plataforma. 3.5 Tratamento e utilização dos dados
+As respostas coletadas foram analisadas quantitativamente e utilizadas como referência para a
+identificação das necessidades dos usuários. A análise buscou estabelecer uma relação entre
+os problemas apontados pelos participantes e os requisitos da solução proposta.
+6
+Com base nessa análise, foram considerados requisitos funcionais, relacionados às
+funcionalidades que a plataforma deverá oferecer, e requisitos não funcionais, relacionados a
+características como usabilidade, responsividade, portabilidade e facilidade de acesso. 3.6 Diretrizes para a solução proposta
+A definição da solução foi orientada pelos problemas identificados na pesquisa e pelos
+princípios apresentados na fundamentação teórica. Dessa forma, a plataforma foi concebida
+para centralizar informações do Grêmio Estudantil em um ambiente único, com navegação
+organizada e acesso por diferentes dispositivos. Também foram consideradas funcionalidades voltadas à divulgação de avisos e eventos, organização de atividades, apresentação dos membros do Grêmio, transparência e
+participação estudantil. A estrutura proposta contempla uma área pública, destinada aos
+estudantes, e uma área administrativa, destinada ao gerenciamento dos conteúdos pelos
+responsáveis autorizados. 4 DESENVOLVIMENTO
+Esta seção descreve o desenvolvimento da plataforma web proposta para o Grêmio Estudantil
+da Etec Vasco Antônio Venchiarutti. São apresentados os requisitos definidos a partir da
+pesquisa de campo, as tecnologias empregadas, a organização do sistema, a modelagem dos
+dados, os mecanismos de autenticação e de controle de acesso, a interface desenvolvida e as
+limitações identificadas até o momento. O desenvolvimento partiu da compreensão, destacada por Sommerville (2019) e Pressman
+(2016), de que os requisitos orientam as decisões de projeto e de implementação. Conforme
+previsto na metodologia, as funcionalidades foram organizadas em duas áreas: uma destinada
+à consulta dos estudantes e outra restrita aos responsáveis autorizados pelo gerenciamento das
+informações. A versão descrita neste trabalho corresponde ao estágio atual do projeto. Os módulos de
+cadastro, autenticação, controle de acesso e administração de usuários encontram-se
+funcionais. Os módulos de conteúdo (mural de avisos, eventos, votação, membros e
+financeiro) tiveram a interface construída, mas ainda não estão integrados ao banco de dados. 4.1 Requisitos do sistema
+Os requisitos da plataforma foram definidos a partir das respostas obtidas na pesquisa de
+campo, da qual participaram 62 estudantes, e das necessidades observadas na comunicação do
+Grêmio. O Quadro 1 apresenta os requisitos funcionais e a situação de cada um na versão
+atual, e o Quadro 2 apresenta os requisitos não funcionais. Quadro 1 – Requisitos funcionais
+Código Requisito Situação
+RF01 Permitir o cadastro de estudantes apenas com e-mail institucional Implementado
+RF02 Verificar a propriedade do e-mail por meio de link com prazo de validade Implementado
+RF03 Autenticar usuários por e-mail e senha Implementado
+RF04 Diferenciar os usuários em quatro níveis de acesso Implementado
+7
+Código Requisito Situação
+RF05 Permitir que administradores listem usuários, alterem níveis e excluam
+contas
+Implementado
+RF06 Divulgar avisos em um mural, classificados por tipo (urgente, informativo, cardápio)
+Interface pronta
+RF07 Divulgar os eventos do Grêmio em um carrossel Interface pronta
+RF08 Realizar votações sobre decisões de interesse dos estudantes Interface pronta
+RF09 Apresentar os membros do Grêmio Interface pronta
+RF10 Apresentar informações financeiras (saldo, metas e gráfico) Interface pronta
+RF11 Divulgar as ligas esportivas e os clubes culturais Interface pronta
+RF12 Disponibilizar canal de denúncia anônima Previsto
+RF13 Oferecer um quiz sobre a história e as ações do Grêmio Previsto
+Fonte: elaborado pelos autores (2026). Quadro 2 – Requisitos não funcionais
+Código Categoria Descrição
+RNF01 Responsividade O layout deve se adaptar a telas de celulares, tablets e computadores
+RNF02 Usabilidade
+A navegação deve ser simples, com hierarquia visual clara e acesso
+rápido às seções
+RNF03 Portabilidade O acesso deve ocorrer pelo navegador, sem instalação de programas
+RNF04 Segurança
+Senhas, tokens e sessões devem ser protegidos, e o acesso às funções
+administrativas deve ser restrito
+RNF05 Acessibilidade de acesso
+A plataforma deve estar hospedada na internet, disponível de forma
+contínua
+Fonte: elaborado pelos autores (2026). 4.2 Tecnologias utilizadas
+A plataforma foi construída com tecnologias amplamente utilizadas no desenvolvimento web
+e compatíveis com hospedagem gratuita, o que atende ao contexto de um projeto escolar. O
+Quadro 3 resume as tecnologias e suas finalidades. Quadro 3 – Tecnologias empregadas
+Camada Tecnologia Finalidade
+Front-end HTML5, CSS3 e JavaScript Estrutura, estilo e interações das páginas, sem
+uso de frameworks
+Front-end Fontes Poppins e Inter Padronização tipográfica de títulos e textos
+Front-end Chart.js (previsto) Gráfico de saldo do módulo financeiro
+Back-end PHP 8 ou superior
+Processamento das requisições, sessões e
+permissões
+Banco de dados MySQL, com extensão PDO
+Armazenamento dos dados e consultas
+preparadas
+E-mail PHPMailer e SMTP da Brevo Envio dos e-mails de verificação de cadastro
+8
+Camada Tecnologia Finalidade
+Hospedagem InfinityFree Disponibilização da plataforma na internet
+Fonte: elaborado pelos autores (2026). No back-end, o PHP processa as requisições, gerencia as sessões e controla as permissões, enquanto o acesso ao banco de dados MySQL é feito pela extensão PDO, com o uso de
+consultas preparadas. No front-end, o layout foi construído com HTML5, CSS3 e JavaScript, sem frameworks, o que reduz dependências externas e simplifica a manutenção. 4.3 Organização do sistema
+O sistema foi organizado em pastas com responsabilidades distintas, conforme o Quadro 4. As regras de autenticação e de permissão ficam concentradas na pasta auth, as configurações
+de conexão e de e-mail ficam em config, e as regras do painel administrativo ficam em admin. Essa separação vai ao encontro da preocupação com organização e manutenção apontada por
+Pressman (2016), pois permite alterar uma parte do sistema sem afetar as demais. Quadro 4 – Estrutura de arquivos e pastas
+Arquivo ou pasta Função
+index.php
+Página inicial, com mural, eventos, votação, membros, ligas, clubes e
+financeiro
+cadastro.php, verificar-email.php, definir-senha.php
+Fluxo de cadastro, verificação do e-mail e criação da senha
+login.php e logout.php Entrada e saída do sistema
+admin.php e pasta admin
+Painel administrativo: listagem de usuários e regras de alteração de nível
+e de exclusão
+pasta auth Verificação de sessão (auth.php) e de níveis de permissão
+(permissoes.php)
+pasta config
+Conexão com o banco de dados (database.php) e envio de e-mails
+(mail.php)
+pasta assets Folhas de estilo (style.css e components.css) e scripts JavaScript
+pasta phpmailer Biblioteca utilizada para o envio de e-mails
+Fonte: elaborado pelos autores (2026). A página inicial exige que o usuário esteja autenticado. Dessa forma, apenas estudantes com
+e-mail institucional verificado têm acesso ao conteúdo do Grêmio, o que reforça o vínculo da
+plataforma com a comunidade escolar. 4.4 Modelagem dos dados
+Nesta versão, os dados são armazenados em um banco MySQL cuja tabela principal, denominada usuarios, guarda as informações de cadastro, os níveis de acesso e os dados
+necessários à verificação do e-mail. O Quadro 5 descreve os campos dessa tabela. As demais
+entidades previstas, como avisos, eventos e votações, serão incorporadas na integração dos
+módulos de conteúdo.
+9
+Quadro 5 – Campos da tabela usuarios
+Campo Descrição
+id Identificador único do usuário
+nome Nome completo informado no cadastro
+curso Curso do estudante, escolhido em uma lista
+email E-mail institucional, utilizado como login
+senha Hash da senha, vazio até que o usuário a defina
+nivel Nível de acesso, de 1 a 4
+email_verificado Indica se o e-mail foi verificado (0 ou 1)
+token_verificacao Hash SHA-256 do token enviado por e-mail
+token_expira_em Data e hora de expiração do token
+Fonte: elaborado pelos autores (2026). 4.5 Cadastro e autenticação
+O cadastro foi projetado para garantir que apenas estudantes da instituição criem contas e que
+o e-mail informado pertença de fato ao solicitante. O processo ocorre nas seguintes etapas:
+a) o estudante informa nome completo, curso e e-mail, e o sistema aceita somente
+endereços do domínio @aluno.cps.sp.gov.br;
+b) o sistema gera um token aleatório de 64 caracteres hexadecimais e armazena
+apenas o seu hash SHA-256, com validade de uma hora;
+c) um link contendo o token é enviado ao e-mail informado;
+d) ao acessar o link, o sistema valida o formato e a validade do token e exibe o
+formulário de criação de senha;
+e) a senha, com no mínimo 8 caracteres, é armazenada somente na forma de hash, a
+conta é marcada como verificada e o token é invalidado;
+f) o login é permitido apenas para contas com e-mail verificado. Figura 1 – Fluxo de cadastro e verificação de e-mail
+[INSERIR fluxograma do cadastro, ou remover esta figura]
+Fonte: elaborado pelos autores (2026). Guardar apenas o hash do token evita que um vazamento do banco de dados exponha links de
+verificação válidos. No login, a senha é conferida por comparação de hash e, após a
+autenticação, o identificador da sessão é regenerado para impedir a fixação de sessão. Os
+cookies de sessão são configurados como httponly e com política samesite, o que reduz o
+risco de roubo da sessão por scripts maliciosos. Além disso, a mensagem exibida em caso de
+falha é a mesma, quer o e-mail exista ou não, o que dificulta a descoberta de contas
+cadastradas por terceiros. Essas escolhas se alinham às recomendações da OWASP (2021)
+sobre falhas de identificação e autenticação e sobre proteção de dados sensíveis.
+10
+4.6 Controle de acesso
+O acesso às funções do sistema é controlado por quatro níveis, descritos no Quadro 6. Todo
+novo cadastro recebe o nível 1. A promoção a níveis superiores ocorre exclusivamente pelo
+painel administrativo. Quadro 6 – Níveis de acesso e permissões
+Nível Perfil Permissões
+1 Usuário Acessa o conteúdo da plataforma destinado aos estudantes
+2 Membro Acessa o painel administrativo e visualiza a lista de usuários
+3 Administrador Acessa o painel e promove usuários do nível 1 para o nível 2
+4 Administrador Principal Altera o nível de qualquer usuário para qualquer nível e exclui contas
+Fonte: elaborado pelos autores (2026). Nenhum usuário pode alterar o próprio nível nem excluir a própria conta, o que evita a perda
+acidental do acesso administrativo. As regras são verificadas no servidor, e não apenas na
+interface: mesmo que um usuário forje uma requisição para uma ação não exibida em sua tela, o sistema recusa a operação. Esse cuidado responde ao risco de quebra de controle de acesso
+apontado pela OWASP (2021). 4.7 Interface e usabilidade
+A interface foi desenvolvida com abordagem mobile-first: o layout base é pensado para telas
+pequenas e passa a se reorganizar em colunas a partir de 768 e de 1024 pixels de largura, o
+que atende ao requisito de responsividade. O visual adota tons de azul, com laranja como cor
+de destaque, e as fontes Poppins, para títulos, e Inter, para textos. Cores, fontes e
+espaçamentos foram definidos como variáveis CSS, o que padroniza a aparência e facilita
+futuras alterações. A página inicial reúne, em um único ambiente, o carrossel de eventos, o mural de avisos, a
+votação em andamento, os membros do Grêmio, as ligas esportivas, os clubes culturais e o
+resumo financeiro. Os avisos são identificados por etiquetas e cores conforme o tipo, para que
+os mais urgentes sejam percebidos primeiro. O rodapé oferece acesso à denúncia anônima e às
+dúvidas frequentes. A navegação entre as seções é feita por um menu flutuante fixo na tela, e
+um menu de perfil exibe o nome, o curso e o e-mail do usuário, com a opção de sair. Essas decisões buscam atender aos princípios de facilidade de aprendizado e eficiência
+destacados por Nielsen (2007). Foram incluídos também recursos básicos de acessibilidade, como rótulos descritivos nos botões, atributos que indicam o estado dos menus e respeito à
+preferência do sistema por redução de animações. Figura 2 – Página inicial da plataforma
+[INSERIR captura de tela da página inicial]
+Fonte: elaborado pelos autores (2026). Figura 3 – Painel administrativo
+[INSERIR captura de tela do painel administrativo]
+Fonte: elaborado pelos autores (2026).
+11
+4.8 Medidas de segurança adotadas
+Além dos mecanismos de autenticação e de controle de acesso, foram adotadas as seguintes
+medidas: consultas ao banco por meio de instruções preparadas, que impedem a injeção de
+código SQL; tratamento de todos os dados exibidos nas páginas, que previne a execução de
+scripts maliciosos; armazenamento de senhas e tokens apenas na forma de hash; e ocultação
+dos detalhes de erros do banco de dados, que não são exibidos ao usuário. Tais medidas
+correspondem a práticas recomendadas pela OWASP (2021) para aplicações web. 4.9 Limitações e melhorias previstas
+Reconhece-se que a versão atual apresenta limitações. Entre as melhorias previstas estão: a
+proteção dos formulários administrativos contra falsificação de requisições entre sites (CSRF);
+o limite de tentativas de login; a recuperação de senha; o armazenamento das credenciais de
+banco de dados e de e-mail fora do código-fonte, em variáveis de ambiente ou em arquivo
+protegido; a desativação da exibição detalhada de erros no ambiente de produção; e a
+integração dos módulos de conteúdo ao banco de dados, com painéis de gerenciamento para
+os membros autorizados. A implementação da denúncia anônima e do quiz também está
+prevista para as próximas etapas. 4.10 Testes e validação
+Para verificar o comportamento esperado do sistema, foram definidos os cenários de teste do
+Quadro 7:
+Quadro 7 – Cenários de teste
+Cenário Resultado esperado Resultado obtido
+Cadastro com e-mail fora do domínio
+institucional
+O sistema recusa o cadastro e exibe
+mensagem de erro
+[preencher]
+Acesso ao link de verificação após
+uma hora
+O sistema informa que o link expirou [preencher]
+Reutilização do link após a criação da
+senha
+O sistema informa que o link é inválido ou
+já foi utilizado
+[preencher]
+Login com senha incorreta ou com
+conta não verificada
+O acesso é negado, com mensagem
+genérica
+[preencher]
+Acesso ao painel administrativo por
+usuário de nível 1 O sistema exibe “Acesso negado” [preencher]
+Administrador (nível 3) tenta
+promover usuário do nível 2 para o 3 O sistema recusa a alteração [preencher]
+Visualização em celular e em
+computador
+O layout se adapta às duas telas [preencher]
+Fonte: elaborado pelos autores (2026).
+12
+5 CONSIDERAÇÕES FINAIS
+Este trabalho teve como objetivo desenvolver uma plataforma web responsiva destinada à
+centralização das informações do Grêmio Estudantil da Etec Vasco Antônio Venchiarutti, a
+fim de facilitar o acesso dos estudantes aos conteúdos divulgados e aprimorar a comunicação
+entre a agremiação e o corpo discente. A partir da fundamentação teórica e da pesquisa de
+campo, que reuniu 62 respostas, foi possível definir os requisitos e construir uma solução que
+reúne, em um único ambiente, as principais informações da entidade. Em resposta ao problema de pesquisa, conclui-se que uma plataforma web centralizada tem
+potencial para facilitar o acesso dos estudantes às informações do Grêmio, ao concentrar
+avisos, eventos, votações, membros, ligas, clubes e informações financeiras em um só lugar e
+ao oferecer um ambiente administrativo para o gerenciamento desses conteúdos. Quanto aos
+objetivos específicos, as dificuldades de acesso às informações foram identificadas por meio
+do questionário, e os requisitos funcionais e não funcionais foram definidos e organizados. Foi desenvolvida uma interface responsiva, com abordagem mobile-first, organizada em
+seções temáticas e em um menu flutuante de navegação. As informações foram reunidas na
+página inicial, e a participação e a transparência foram previstas na interface por meio da
+votação, da apresentação dos membros e do resumo financeiro. Também foi construída uma
+estrutura administrativa, com controle de acesso em quatro níveis. Do ponto de vista técnico, o desenvolvimento permitiu aplicar conhecimentos do curso, como
+desenvolvimento web, engenharia de software, levantamento de requisitos, organização de
+dados e princípios de usabilidade. Destacam-se a autenticação restrita ao e-mail institucional, com verificação por link, o armazenamento seguro de senhas e o controle de acesso por níveis, que buscam garantir que apenas estudantes da instituição acessem a plataforma e que as
+funções administrativas fiquem restritas aos responsáveis. Como limitações, registra-se que os módulos de conteúdo (mural de avisos, eventos, votação, membros e financeiro) têm a interface concluída, mas ainda dependem de integração ao banco
+de dados, e que melhorias de segurança, como a proteção contra falsificação de requisições
+(CSRF), o limite de tentativas de login e a recuperação de senha, permanecem previstas. Além
+disso, a amostra da pesquisa, de cerca de 5% dos alunos da instituição, não permite
+generalizar os resultados para toda a comunidade escolar. Como trabalhos futuros, sugere-se a integração dos módulos de conteúdo ao banco de dados, com painéis para que os membros do Grêmio publiquem avisos e eventos; a implementação
+da denúncia anônima e do quiz; a inclusão de recuperação de senha e das demais melhorias de
+segurança; a realização de testes de usabilidade com os estudantes; e a aplicação de um novo
+questionário após o uso da plataforma, para avaliar seu efeito sobre a comunicação e a
+participação estudantil. Conclui-se, portanto, que o trabalho atendeu ao propósito de construir uma base funcional
+para centralizar a comunicação do Grêmio Estudantil, contribuindo para a formação técnica
+dos autores e oferecendo à escola uma ferramenta que pode ser ampliada e mantida. REFERÊNCIAS
+BRASIL. Lei nº 7.398, de 4 de novembro de 1985. Dispõe sobre a organização de entidades
+representativas dos estudantes de 1º e 2º graus e doutras providências. BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as diretrizes e bases da
+educação nacional.
+13
+NIELSEN, Jakob. Usability Engineering. San Francisco: Morgan Kaufmann, 2007. OWASP FOUNDATION. OWASP Top 10:2021. [S. l.]: OWASP Foundation, 2021. Disponível em: https://owasp.org/Top10/. PRESSMAN, Roger S. Engenharia de Software: uma abordagem profissional. Porto Alegre:
+AMGH, 2016. SOMMERVILLE, Ian. Engenharia de Software. São Paulo: Pearson, 2019. UNESCO. Global Education Monitoring Report 2
 
+Durante a elaboração deste artigo, foram utilizadas ferramentas de Inteligência Artificial, especificamente o ChatGPT e o Claude, como recursos de apoio ao desenvolvimento do trabalho. As ferramentas foram utilizadas para auxiliar na organização das ideias, revisão e aprimoramento do texto, bem como no esclarecimento de dúvidas relacionadas ao tema. A seleção das informações, análise do conteúdo e responsabilidade pelo trabalho final permaneceram sob responsabilidade dos autores.
