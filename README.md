@@ -1,4 +1,4 @@
-TCC - Sistema para Grêmio Estudantil
+TCC - Centralização de Informações do Grêmio Estudantil
 
 Este repositório contém o desenvolvimento do Trabalho de Conclusão de Curso (TCC), com foco na criação de um aplicativo/site para o grêmio estudantil.
 
